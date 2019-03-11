@@ -13,7 +13,7 @@ const timeGauge = document.getElementById("timeGauge");
 const progress = document.getElementById("progress");
 const scoreDiv = document.getElementById("scoreContainer");
 
-// create our questions
+// Die Fragen sind in einem Array gespeichert
 let questions = [
     {
         question : "What is the name of the capital of Switzerland?",
