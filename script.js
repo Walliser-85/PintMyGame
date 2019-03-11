@@ -123,7 +123,7 @@ function renderCounter(){
     }
 }
 
-// checkAnwer
+// checkAnweraaaaaa
 
 function checkAnswer(answer){
     if( answer == questions[runningQuestion].correct){
