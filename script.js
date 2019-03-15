@@ -17,6 +17,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "What is the name of the capital of Switzerland?",
+        imgSrc : "img/wappen.jpg",
         choiceA : "Zürich",
         choiceB : "Bern",
         choiceC : "Genf",
@@ -25,6 +26,7 @@ let questions = [
         correct : "B"
     },{
         question : "What is the name of the biggest city in Switzerland?",
+        imgSrc : "img/city.JPG",
         choiceA : "Lausanne",
         choiceB : "Zürich",
         choiceC : "Basel",
@@ -33,6 +35,7 @@ let questions = [
         correct : "B"
     },{
         question : "Who became a national hero out of a work by the German poet Schiller?",
+        imgSrc : "img/hero.png",
         choiceA : "Adolf Ogi",
         choiceB : "André Bucher",
         choiceC : "Roger Schawinsky",
@@ -41,6 +44,7 @@ let questions = [
         correct : "D"
     } ,{
         question : "Switzerland has common borders with how many countries?",
+        imgSrc : "img/border.jpg",
         choiceA : "9",
         choiceB : "4",
         choiceC : "5",
@@ -49,6 +53,7 @@ let questions = [
         correct : "C"
     },{
         question : "How large is Switzerland (in square kilometers)?",
+        imgSrc : "img/large.png",
         choiceA : "34241",
         choiceB : "38903",
         choiceC : "39873",
