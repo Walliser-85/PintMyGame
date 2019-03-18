@@ -69,8 +69,12 @@ const lastQuestion = questions.length - 1;
 let runningQuestion = 0;
 let count = 0;
 const questionTime = 10; // 10s
+
+//Mit gauge meine ich die "Spur"
 const gaugeWidth = 150; // 150px
 const gaugeUnit = gaugeWidth / questionTime;
+
+//time muss statisch sein
 let TIMER;
 let score = 0;
 
