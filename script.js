@@ -101,6 +101,7 @@ function startQuiz(){
     renderProgress();
     renderCounter();
     TIMER = setInterval(renderCounter,1000); // 1000ms = 1s
+    getElementById("choice").innerHTML
 }
 
 // render progress
